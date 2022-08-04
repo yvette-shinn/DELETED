@@ -1,13 +1,13 @@
 .content {
-    color:rgba(255, 255, 255, 0.466);
+    color:rgba(0, 0, 0, 0.63);
     width:800px;
 }
 .background {
-    background-color: rgb(48, 25, 25);
+    background-color: rgba(149, 215, 174, 0.767);
 }
 .mainpage {
-    color:aquamarine;
+    color:rgb(19, 180, 126);
 }
 .way {
-    color:cornflowerblue;
+    color:rgb(13, 123, 86);
 }
