@@ -1,13 +1,23 @@
 .content {
     color:rgba(0, 0, 0, 0.63);
-    width:800px;
+    width: 1000px;
+    font-size: larger;
 }
 .background {
     background-color: rgba(149, 215, 174, 0.767);
 }
-.mainpage {
-    color:rgb(19, 180, 126);
+.home {
+    color:rgb(16, 140, 99);
+    font-size: 36px;
 }
 .way {
     color:rgb(13, 123, 86);
+    font-size: 24px;
+}
+.column {
+    color:rgb(8, 31, 23);
+    font-size: 24px; 
+    padding: 200px 270px 200px 270px;
+    border:1.5px solid grey;
+    display: inline-flex;
 }
