@@ -10,6 +10,7 @@
 .background {
     background-color: rgba(0, 0, 0, 0.767);
     margin: 0;
+    padding-bottom: 100px;
 }
 .home {
     color:rgb(255, 187, 0);
