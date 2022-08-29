@@ -14,24 +14,24 @@
     border-radius: 20px;
 }
 .background {
-    background-color: rgba(165, 151, 117, 0.767);
+    background-color: rgba(195, 187, 179, 0.767);
     margin: 0;
     padding-bottom: 100px;
 }
 .home {
-    color:rgb(229, 151, 42);
-    font-size: 30px;
+    color:rgb(213, 181, 132);
+    font-size: 36px;
     font-weight:700;
 }
 .way {
-    color:rgb(137, 106, 67);
+    color:rgb(114, 92, 65);
     font-size: 24px;
     font-weight: 600;
 }
 .tway {
     width: 1000px;
     margin:auto;
-    padding: 10px;
+    padding-top: 10px;
 }
 .img {
     width: 600px;
@@ -43,6 +43,7 @@
 }
 a {
     text-decoration: none;
+    color:#b25b18
 }
 .container {
     width: 1000px;
@@ -54,12 +55,10 @@ a {
 }
 .header {
     height: 100px;
-    width: 1100px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;    
+    width: auto;
     margin: auto;
     z-index: 100;
-    background: #3c342e;
+    background: #454545;
     display: flex;
 }
 div.page{
@@ -70,34 +69,37 @@ div.page{
     border-top: 2px solid #3c342e;
     border-bottom: 2px solid #3c342e;
     border-radius: 0 20px 20px 0;
+    background-color: #3c342e;
     padding: 10px;
     width: fit-content;
 }
 .page-button {
-    border-left:5px solid #3c342e; 
+    border-left:5px solid #7c6c61; 
     padding-left:3px;
+    color: rgb(178, 143, 100);
+    font-size: 24px;
+    font-weight: 600;
 }
 .select {
-    width: 1000px;
+    width: 500px;
     height: 430px;
-    margin: auto;
+    margin-left: 100px;
+    margin-right: auto;
 }
 .block {
-    height: 200px;
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border-width: 1000px;
-    border: 1px solid #2f2b2b;
-    border-radius: 20px;
+    position: relative;
+    border: 1px dashed #3c342e;
+    height: 165px;
+    margin: 10px;
+    background-color: #b7b1ab;
 }
 .noveltitle {
     color: #3c342e;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 28px;
-    margin: 20px;
+    margin: 10px;
     position: relative;
-    top:20px;
+    top: 10px;
 }
 hr {
     background-color:#3c342e; 
@@ -107,6 +109,7 @@ hr {
 .intro {
     color:rgba(35, 2, 2, 0.898);
     width: 1000px;
+    height: 300px;
     font-size: larger;
     border: 2px solid #3c342e;
     border-radius: 20px;
@@ -114,7 +117,38 @@ hr {
     position: relative;
     top: 10px;
 }
-.intro-detail {
+.intro1 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: auto;
+    width: 200px;
+    position: relative;
+    top:20px;
+    left: 10px;
+}
+span.intro-detail {
     margin: 20px;
-    top:10px
+    right:10px;
+    position:relative;
+    top: 10px;
+    left: 10px;
+}
+.chapter {
+    width: 960px;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    top:10px;
+}
+a.chapter-select {
+    padding: 10px;
+    background-color: rgb(191, 186, 182);
+    border: 0;
+    border-radius: 5px;
+}
+.pimg {
+    width: 120px;
+    height: 144px; 
+    margin: 10px;
+    float: left;
 }
