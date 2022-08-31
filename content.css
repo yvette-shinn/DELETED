@@ -166,7 +166,7 @@ a.chapter-select {
     }
     .intro {
         color:rgba(35, 2, 2, 0.898);
-        width: auto;
+        width: 576px;
         height: auto;
         font-size: larger;
         border: 2px solid #3c342e;
@@ -175,5 +175,16 @@ a.chapter-select {
         position: relative;
         top: 10px;
         padding: 10px;
+    }
+    .content {
+        color:rgba(35, 2, 2, 0.898);
+        width: auto;
+        font-size: larger;
+        position: relative;
+        top: 10px;
+        margin: auto;
+        padding: 20px;
+        border: 2px solid #3c342e;
+        border-radius: 20px;
     }
   }
