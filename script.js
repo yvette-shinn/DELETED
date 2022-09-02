@@ -1,8 +1,17 @@
 var page = document.getElementById("page");
+var thr = document.getElementById("thr");
+var body = document.getElementById("body");
 
-page.addEventListener("mouseleave" , function(){
-    page.style.opacity = 0;
+thr.addEventListener("mouseover", function(){
+    page.style.left = 0;
 })
-page.addEventListener("mouseenter" , function(){
-    page.style.opacity = 1;
+body.addEventListener("mouseover", function(){
+    page.style.position = this.remove;
 })
+
+function mouseover(){
+}
+function mouseout(){
+    thr.style.opacity = 1;
+}
+
