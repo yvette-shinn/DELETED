@@ -68,9 +68,6 @@ div.page{
     transition: bottom 0.5s;
     align-items: center;
 }
-div.page:hover {
-    bottom:0;
-}
 .sticky {
     position: sticky;
     top:0;

@@ -9,9 +9,4 @@ body.addEventListener("mouseover", function(){
     page.style.position = this.remove;
 })
 
-function mouseover(){
-}
-function mouseout(){
-    thr.style.opacity = 1;
-}
 
