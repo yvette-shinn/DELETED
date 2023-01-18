@@ -1,0 +1,240 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#menu{
+    position: relative;
+    left: 250px;
+    bottom: 70px;
+}
+
+.bar{
+    background-color:   rgb(82, 74, 64);
+    font-family: 隨峰體;
+    width: auto;
+    height: 60px;
+    padding: 10px;
+    padding-left: 80px;
+    z-index: 0;
+    font-size: 60px;
+    text-align:start;
+    line-height: 60px;
+}
+
+.bar a{
+    color: rgb(198, 192, 166);
+}
+.main{
+    width: 120px;
+    background-color: rgb(82, 74, 64);
+    color: rgb(198, 192, 166);
+    font-family: 辰宇落雁體;
+    font-weight: bold;
+    font-size: 35px;
+    cursor: pointer;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+    line-height: 40px;
+    /*border-radius: 20px;*/
+}
+
+.main:hover{
+    background-color: rgb(109, 98, 84);  
+}
+
+.sub li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.item{
+    float: left;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+
+
+.content {
+    color:rgba(35, 2, 2, 0.898);
+    width: 1000px;
+    font-weight: 500;
+    font-size: 22px;
+    position: relative;
+    top: 10px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #3c342e;
+    border-radius: 20px;
+    z-index: -5;
+}
+.background {
+    background-color: rgba(195, 187, 179, 0.767);
+    margin: 0;
+    padding-bottom: 100px;
+}
+.home {
+    color:rgb(213, 181, 132);
+    font-size: 42px;
+    font-weight:900;
+    font-family: 辰宇落雁體;
+}
+.way {
+    color:rgb(114, 92, 65);
+    font-size: 24px;
+    font-weight: 600;
+}
+.tway {
+    width: 1000px;
+    margin:auto;
+    padding-top: 10px;
+}
+
+div.page{
+    position: relative;
+    border-radius:0 0 20px 20px;
+    background-color: rgb(82, 74, 64);
+    padding: 10px;
+    padding-left: 30px;
+    margin: auto;
+    width: 1000px;
+    z-index: 0;
+    transition: bottom 0.5s;
+    align-items: center;
+}
+.sticky {
+    position: sticky;
+    top:0;
+}
+.page-button {
+    background-color:  rgb(82, 74, 64);
+    padding-left:3px;
+    color: rgb(213, 181, 132);
+    font-size: 24px;
+    font-weight: 600;
+    width: 50px;
+    font-family: 隨峰體;
+}
+.page-button:hover{
+    background-color: #645951;
+}
+.story {
+    padding-left:3px;
+    color: rgb(169, 158, 142);
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 隨峰體;
+}
+
+.block {
+    position: relative;
+    border: 1px dashed #3c342e;
+    height: 165px;
+    margin: 10px;
+    background-color: #b7b1ab;
+}
+.noveltitle {
+    color: #3c342e;
+    font-weight: 600;
+    font-size: 28px;
+    margin: 10px;
+    position: relative;
+    top: 10px;
+}
+hr {
+    background-color:#3c342e; 
+    height:2px; 
+    margin: 5px;
+    border:none
+}
+.intro {
+    color:rgba(35, 2, 2, 0.898);
+    width: 1000px;
+    height: auto;
+    font-size: larger;
+    border: 2px solid #3c342e;
+    border-radius: 20px;
+    margin: auto;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+}
+.intro1 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: auto;
+    width: 200px;
+    position: relative;
+    top:20px;
+    left: 10px;
+}
+span.intro-detail {
+    margin: 20px;
+    right:10px;
+    position:relative;
+    top: 10px;
+    left: 10px;
+}
+.chapter {
+    width: 960px;
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    top:10px;
+}
+a.chapter-select {
+    font-family: 隨峰體;
+    font-weight: 300;
+    font-size: 25px;
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(191, 186, 182);
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    top:-10px;
+}
+a.chapter-select:hover{
+    background-color: #b7b1ab;
+}
+a.select {
+    display: block;
+    width: 140px;
+    border: 0;
+    position: relative; 
+    border-bottom: rgb(129, 120, 110) 2px solid;
+    background-color: rgb(185, 182, 164);
+    font-family: 辰宇落雁體;
+    text-align: center;
+    font-size: 30px;
+}
+a.select:hover {
+    background-color: rgb(199, 194, 190);
+}
+
+.sub-word {
+    font-family: 隨峰體;
+    font-weight:600;
+    font-size: 36px; 
+    position: relative; 
+    padding-bottom:10px;
+    top: 10px;
+    left: 20px;
+}
+
+.cha-on {
+    position: relative;
+    top: 30px;
+    left: 130px;
+    width: 1000px;
+    border: solid #645951 3px;
+    border-radius: 20px;
+}
