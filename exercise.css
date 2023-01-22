@@ -10,12 +10,12 @@
 }
 
 .bar{
-    background-color:   rgb(82, 74, 64);
     font-family: 隨峰體;
     width: auto;
+    padding-right: 500px;
     height: 60px;
     padding: 10px;
-    padding-left: 80px;
+    padding-left: 50px;
     z-index: 0;
     font-size: 60px;
     text-align:start;
@@ -23,7 +23,7 @@
 }
 
 .bar a{
-    color: rgb(198, 192, 166);
+    color: rgb(19, 18, 13);
 }
 .main{
     width: 120px;
@@ -37,7 +37,7 @@
     height: 40px;
     padding: 10px;
     line-height: 40px;
-    /*border-radius: 20px;*/
+    border-radius: 20px;
 }
 
 .main:hover{
@@ -215,9 +215,10 @@ a.select {
     font-family: 辰宇落雁體;
     text-align: center;
     font-size: 30px;
+    border-radius: 20px;
 }
 a.select:hover {
-    background-color: rgb(199, 194, 190);
+    background-color: rgb(170, 168, 165);
 }
 
 .sub-word {
@@ -238,3 +239,39 @@ a.select:hover {
     border: solid #645951 3px;
     border-radius: 20px;
 }
+
+.post {
+    position: relative;
+    left: 55px;
+    top: 20px;
+    width: auto;
+    height: auto;
+}
+
+.subt{
+    color:#5b4535;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 隨峰體;
+    background-color: #b7b1ab;
+    width: 500px;
+    height: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*.but{
+    width: 248px;
+    height: 40px;
+    color: #3c342e;
+    background-color: rgb(192, 183, 173);
+    border: solid 2px rgb(69, 50, 25);
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 隨峰體;
+}
+
+.but:hover {
+    background-color: #b59f8f;
+}*/

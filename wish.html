@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>許願池</title>
+        <link rel="stylesheet" href="exercise.css"></link>
+        <script src="jquery.js"></script>
+    </head>
+    <body class="background">
+        <div class="bar"><a href="index.html">靜夜思</a></div>
+        <hr/>
+        <div class="post">
+            <div class="subt">標題</div>   
+            <input id="title" type="text" style="width:500px;border: solid 2px rgb(69, 50, 25); border-radius: 10px;height:25px; font-size: 16px;" />
+            <br/>
+            <br/>
+            <div class="subt">日期</div>
+            <input id="date" style="border: solid 2px rgb(69, 50, 25); border-radius: 10px;height:25px; font-size: 16px;position: relative;left: 190px;" type="date" />
+            <br/>
+            <br/>
+            <div class="subt">內容</div>
+            <textarea id="content" style="width:500px; border: solid 2px rgb(69, 50, 25); border-radius: 10px;font-size: 16px;" rows="10"></textarea>
+            <br/>
+            <button id="btn1" class="but">發布</button>
+            <button id="btn2" class="but">清除</button>
+            <br/>
+            <br/>
+            <div id="list">
+                <div class="article">
+                    <h2></h2>
+                    <p></p>
+                    <p></p>
+                    <p>—</p>
+                </div>
+            </div>
+            <script src="script.js"></script>
+        </div>
+        
+    </body>
+</html>
