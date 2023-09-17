@@ -1,0 +1,45 @@
+.icon{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 15px;
+}
+
+.weblook{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    background-color: rgb(252, 251, 175);
+}
+
+.h1{
+    text-align:center;
+    font-family:'辰宇落雁體';
+    font-size: 55px;
+    font-weight: 500;
+}
+
+.button{
+    font-family: '辰宇落雁體';
+    font-weight: 700;
+    font-size: 24px;
+    border: 3px solid rgba(77, 43, 9, 0.867);
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(209, 219, 249);
+}
+
+#textInput{
+    width: 100%;
+    height: 100px;
+    border: 3px solid rgba(77, 43, 9, 0.867);
+    border-radius: 10px 10px 10px 10px;
+    font-size: 18px;
+    font-family: '標楷體';
+    background-color: rgb(209, 219, 249);
+}
+
+#output{
+    text-align: start;
+    font-family: '標楷體';
+}
+
